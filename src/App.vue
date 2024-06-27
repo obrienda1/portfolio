@@ -11,16 +11,8 @@ import Updates from './components/Updates.vue'
   <div id="panel" class="container main-container">
     
     <div>
-      <!-- <a href="https://vitejs.dev" target="_blank">
-        <img src="/vite.svg" class="logo" alt="Vite logo" />
-      </a>
-      <a href="https://vuejs.org/" target="_blank">
-        <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-      </a> -->
-      
       <pop-up class="hidden" />
     </div>
-    <!-- <HelloWorld msg="Vite + Vue" /> -->
     <div id="updates" class="container">
       <Updates />
       <div id="update-gradient"></div>

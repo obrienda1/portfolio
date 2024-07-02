@@ -7,10 +7,13 @@ import Updates from './components/Updates.vue'
 </script>
 
 <template>
+  <header class="app-header" v-on:click="$router.push({name: 'HomeView'})">
+
+  </header>
   <!-- <clock /> -->
-  <div id="panel" class="container main-container">
+  <main>
     
-    <div>
+    <!-- <div>
       <pop-up class="hidden" />
     </div>
     <div id="updates" class="container">
@@ -19,8 +22,9 @@ import Updates from './components/Updates.vue'
     </div>
     <div id="main-content">
       <MainScreen />
-    </div>
-  </div>
+    </div> -->
+    <router-view />
+  </main>
 </template>
 
 <style scoped>
@@ -36,23 +40,6 @@ import Updates from './components/Updates.vue'
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }
-#updates {
-  position: absolute;
-  top: 40vh;
-  left: 20px;
-  height: 30%;
-  overflow: hidden;
-}
-#update-gradient {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  height: 100%;
-  width:100%;
-  background: linear-gradient(
-    rgba(36, 36, 36, 0) 0%,
-    rgb(36, 36, 36, 0.87) 87%
-  );
-}
+
 
 </style>

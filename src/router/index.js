@@ -11,7 +11,7 @@ const routes = [
     component: NotFoundView
   },
   {
-    path: '/',
+    path: '/portfolio',
     name: 'HomeView',
     component: HomeView
   },

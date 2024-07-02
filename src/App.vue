@@ -2,7 +2,7 @@
 // import HelloWorld from './components/HelloWorld.vue'
 // import Clock from './components/Clock.vue'
 import PopUp from './components/PopUp.vue'
-import MainScreen from './components/Test-Project.vue'
+import MainScreen from './components/HomeContent.vue'
 import Updates from './components/Updates.vue'
 </script>
 
@@ -17,7 +17,9 @@ import Updates from './components/Updates.vue'
       <Updates />
       <div id="update-gradient"></div>
     </div>
-    <div id="main-content"><MainScreen /></div>
+    <div id="main-content">
+      <MainScreen />
+    </div>
   </div>
 </template>
 

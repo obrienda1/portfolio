@@ -5,7 +5,9 @@
         <img src="../assets/Square.png" alt="" id="pfp"> 
         <div id="info" class="container">
           <h1 id="name">Dinda O'Brien</h1>
+          <h6 id="bonus-info">(she/her) <span id="pronunciation-guide"><span class="strikethrough">L</span>Dinda</span></h6>
           <p>Nice to meet you!</p>
+          <p>If you're interested, check out some of the projects I've worked on, or feel free to hit the button while you rest</p>
           <span id="links">Links placeholder (About, Projects, Github, LinkedIn)</span>
         </div>
       </div>
@@ -30,26 +32,43 @@ export default {
 h1 {
   margin: 0px;
 }
+
+#bonus-info {
+  margin-top: 1px;
+  margin-bottom: 0px;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
 #main-container {
   width: 700px;
-  border: 3px solid #4e4e4e;
   border-radius: 20px;
-  padding: 20px;
+  transition: border-color 0.25s;
+  padding: 1.4em;
 }
+
 #personal-info {
   display: flex;
   margin-bottom: 20px;
 }
+
 #info {
   flex-basis: 60%;
-  border: 3px solid #4e4e4e;
+  border: 1px solid #646cff;
   border-radius: 20px;
+  background-color: #1a1a1a;
   margin-left: 10%;
-  padding: 5px;
+  padding: 1.3em;
   justify-self: center;
+  filter: drop-shadow(0 0 5px #9297ff)
 }
+
 #pfp {
   height: 150px;
   border-radius: 50%;
+  filter: drop-shadow(0 0 5px #9297ff);
+  align-self: center;
 }
 </style>

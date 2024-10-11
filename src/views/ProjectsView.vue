@@ -1,5 +1,5 @@
 <template>
-  Hi!
+  Projects soon!
 </template>
 
 <script>

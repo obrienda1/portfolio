@@ -1,30 +1,20 @@
 <script setup>
-// import HelloWorld from './components/HelloWorld.vue'
-// import Clock from './components/Clock.vue'
-import PopUp from './components/PopUp.vue'
-import MainScreen from './components/HomeContent.vue'
-import Updates from './components/Updates.vue'
 </script>
 
 <template>
   <header class="app-header" v-on:click="$router.push({name: 'HomeView'})">
 
   </header>
-  <!-- <clock /> -->
   <main>
-    
-    <!-- <div>
-      <pop-up class="hidden" />
-    </div>
-    <div id="updates" class="container">
-      <Updates />
-      <div id="update-gradient"></div>
-    </div>
-    <div id="main-content">
-      <MainScreen />
-    </div> -->
     <router-view />
   </main>
+  <footer v-if="this.$route.path != '/portfolio'">
+    <router-link :to="{name: 'HomeView'}">Home Page</router-link> |
+    <span v-if="this.$route.path != '/about'"><router-link :to="{name: 'About'}">About</router-link> | </span>
+    <span v-if="this.$route.path != '/projects'"><router-link :to="{name: 'Projects'}">Projects</router-link> | </span>
+    <span><a href="https://github.com/obrienda1">Github</a> | </span>
+    <span><a href="https://www.linkedin.com/in/dinda-obrien/">LinkedIn</a></span>
+  </footer>
 </template>
 
 <style scoped>
@@ -39,6 +29,16 @@ import Updates from './components/Updates.vue'
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-bottom: 1rem;
+  text-align: center;
+  font-size: small;
+  margin: 0 auto;
 }
 
 

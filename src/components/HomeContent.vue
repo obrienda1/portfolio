@@ -8,7 +8,12 @@
           <h6 id="bonus-info">(she/her) <span id="pronunciation-guide"><span class="strikethrough">L</span>Dinda</span></h6>
           <p>Nice to meet you!</p>
           <p>If you're interested, check out some of the projects I've worked on, or feel free to hit the button while you rest</p>
-          <span id="links">Links placeholder (About, Projects, Github, LinkedIn)</span>
+          <span id="links">
+            <router-link :to="{name: 'About'}">About</router-link> | 
+            <router-link :to="{name: 'Projects'}">Projects</router-link> | 
+            <a href="https://github.com/obrienda1">Github</a> | 
+            <a href="https://www.linkedin.com/in/dinda-obrien/">LinkedIn</a>
+          </span>
         </div>
       </div>
       <div id="btn-container" class="container">

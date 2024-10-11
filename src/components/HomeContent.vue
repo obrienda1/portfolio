@@ -11,8 +11,8 @@
           <span id="links">
             <router-link :to="{name: 'About'}">About</router-link> | 
             <router-link :to="{name: 'Projects'}">Projects</router-link> | 
-            <a href="https://github.com/obrienda1">Github</a> | 
-            <a href="https://www.linkedin.com/in/dinda-obrien/">LinkedIn</a>
+            <a href="https://github.com/obrienda1" target="_blank">Github</a> | 
+            <a href="https://www.linkedin.com/in/dinda-obrien/" target="_blank">LinkedIn</a>
           </span>
         </div>
       </div>

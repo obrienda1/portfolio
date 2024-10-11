@@ -12,8 +12,8 @@
     <router-link :to="{name: 'HomeView'}">Home Page</router-link> |
     <span v-if="this.$route.path != '/about'"><router-link :to="{name: 'About'}">About</router-link> | </span>
     <span v-if="this.$route.path != '/projects'"><router-link :to="{name: 'Projects'}">Projects</router-link> | </span>
-    <span><a href="https://github.com/obrienda1">Github</a> | </span>
-    <span><a href="https://www.linkedin.com/in/dinda-obrien/">LinkedIn</a></span>
+    <span><a href="https://github.com/obrienda1" target="_blank">Github</a> | </span>
+    <span><a href="https://www.linkedin.com/in/dinda-obrien/" target="_blank">LinkedIn</a></span>
   </footer>
 </template>
 
@@ -35,10 +35,13 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
+  padding-top: 1rem;
   padding-bottom: 1rem;
   text-align: center;
-  font-size: small;
+  font-size: smaller;
   margin: 0 auto;
+  overflow: hidden;
+  background-color: #242424ce;
 }
 
 

@@ -30,8 +30,16 @@
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }
+
+main {
+  margin-bottom: 2rem;
+  height: fit-content;
+  overflow: auto;
+  flex: 1;
+}
+
 footer {
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   bottom: 0;
@@ -40,7 +48,6 @@ footer {
   text-align: center;
   font-size: smaller;
   margin: 0 auto;
-  overflow: hidden;
   background-color: #242424ce;
 }
 

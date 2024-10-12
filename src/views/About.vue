@@ -1,15 +1,17 @@
 <template>
-  <h1>About Me</h1>
-  <p><b>Hi!</b></p>
-  <p>I'm Dinda O'Brien, a fresh software developer transitioning from IT support.</p>
-  <p>
-    I have a diverse technical background, including asking users if they've restarted 
-    their machines, cyber security, network maintenance, systems administration, and now 
-    developing web applications.
-  </p>
+  <div class="intro">
+    <h1>About Me</h1>
+    <p><b>Hi!</b></p>
+    <p>I'm Dinda O'Brien, a fresh software developer transitioning from IT support.</p>
+    <p>
+      I have a diverse technical background, including asking users if they've restarted 
+      their machines, cyber security, network maintenance, systems administration, and now 
+      developing web applications.
+    </p>
+  </div>
   
   <div class="section">
-    <h3>Skills</h3>
+    <h2>Skills</h2>
     <ul id="skills-list">
       <li>Object-Oriented Programming: Java</li>
       <li>Web Application Development: HTML, CSS, JavaScript, Vue.js, SpringBoot</li>
@@ -19,7 +21,7 @@
   </div>
 
   <div class="section">
-    <h3>Personal Life</h3>
+    <h2>Personal Life</h2>
     <p>
       When I'm not programming, I'm pretty much everywhere else.
     </p>
@@ -31,7 +33,7 @@
   </div>
   
   <div class="section">
-    <h3>My Philosophy</h3>
+    <h2>My Philosophy</h2>
     <p>People drive change.</p>
     <p>
       Connection, understanding, empathy, and communication are key to making teams work.
@@ -47,7 +49,7 @@
   </div>
 
   <div class="section">
-    <h3>Contact Me</h3>
+    <h2>Contact Me</h2>
     <p>If you've stumbled across this page, thank you for taking the time to read it!</p>
     <p>I'd love to connect with anyone looking to work on a project, ask for advice, or hire an enthusiastic developer!</p>
     <p>
@@ -77,7 +79,7 @@ export default {
 #skills-list li {
   text-align: start;
 }
-h3 {
+h2 {
   text-decoration: underline;
 }
 </style>

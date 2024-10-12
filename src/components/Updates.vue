@@ -27,7 +27,6 @@ export default {
             if (this.$store.state.updates[this.$store.state.updates.length - 1] != 'Updated') {
                 this.$store.commit('ADD_UPDATE', 'Updated');
             }
-            // this.$store.commit('ADD_UPDATE', 'update')
         }, 10000);
     },
     methods: {

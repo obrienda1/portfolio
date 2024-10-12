@@ -8,7 +8,7 @@
   <main>
     <router-view />
   </main>
-  <footer v-if="this.$route.path != '/portfolio'">
+  <footer v-if="this.$route.path == '/about' || this.$route.path == '/projects'">
     <router-link :to="{name: 'HomeView'}">Home Page</router-link> |
     <span v-if="this.$route.path != '/about'"><router-link :to="{name: 'About'}">About</router-link> | </span>
     <span v-if="this.$route.path != '/projects'"><router-link :to="{name: 'Projects'}">Projects</router-link> | </span>
@@ -33,9 +33,6 @@
 
 main {
   margin-bottom: 2rem;
-  height: fit-content;
-  overflow: auto;
-  flex: 1;
 }
 
 footer {
@@ -47,7 +44,6 @@ footer {
   padding-bottom: 1rem;
   text-align: center;
   font-size: smaller;
-  margin: 0 auto;
   background-color: #242424ce;
 }
 

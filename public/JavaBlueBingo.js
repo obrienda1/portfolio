@@ -106,23 +106,6 @@ function bingo() {
 }
 
 function reset() {
-    // board.innerHTML = '';
-    // possibleContent = [
-    //     "Potato",
-    //     "Doge",
-    //     "Cheems",
-    //     "Silly little example",
-    //     "Cat on screen",
-    //     "Hi Stephen",
-    //     "Bob",
-    //     "Screen share jar",
-    //     "Meme history",
-    //     "Food emoji react",
-    //     "Animal emoji react",
-    //     "It's magic",
-    //     "Eagle team"
-    // ];
-    // setBoard();
     location.reload();
 }
 

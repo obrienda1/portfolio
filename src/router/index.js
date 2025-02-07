@@ -9,23 +9,30 @@ const routes = [
   {
     path: "/not-found",
     name: "NotFoundView",
-    component: NotFoundView
+    component: NotFoundView,
   },
   {
     path: '/portfolio',
     name: 'HomeView',
-    component: HomeView
+    component: HomeView,
   },
   {
     path: '/about',
     name: 'About',
-    component: About
+    component: About,
   },
   {
     path: '/projects',
     name: 'Projects',
-    component: ProjectsView
-  }
+    component: ProjectsView,
+  },
+  {
+    path: '/bingo',
+    name: 'Bingo',
+    beforeEnter() {
+      window.location.href = '/portfolio/JavaBlueBingo.html'
+    },
+  },
 ];
 
 export function createRouter () {

@@ -1,11 +1,9 @@
 <template>
-  Projects soon!
+  <router-link :to="{name: 'Bingo'}">Bingo</router-link>
 </template>
 
-<script>
-export default {
-
-}
+<script setup lang="ts">
+const msg: string = 'hi';
 </script>
 
 <style>

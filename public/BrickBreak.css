@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  background-color: #242424;
+}
+
+header {
+  margin-top: 10vh;
+}
+
+#board {
+  margin-top: 5vh;
+  background-color: black;
+  border-top: 5px solid skyblue;
+  border-left: 5px solid skyblue;
+  border-right: 5px solid skyblue;
+}
+
+#home-btn {
+  width: fit-content;
+  margin: auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}

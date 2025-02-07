@@ -33,6 +33,13 @@ const routes = [
       window.location.href = '/portfolio/JavaBlueBingo.html'
     },
   },
+  {
+    path: '/brick-break',
+    name: 'BrickBreak',
+    beforeEnter() {
+      window.location.href = '/portfolio/BrickBreak.html'
+    },
+  },
 ];
 
 export function createRouter () {

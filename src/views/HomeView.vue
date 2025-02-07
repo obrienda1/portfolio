@@ -1,8 +1,5 @@
 <template>
-  <div class="loading" v-if="isLoading">
-    <p>Loading...</p>
-  </div>
-  <div v-else>
+  <div>
     <div>
       <pop-up class="hidden" />
     </div>

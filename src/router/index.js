@@ -42,7 +42,7 @@ const routes = [
   },
 ];
 
-const router = createRouter({
+const router = _createRouter({
   history: createWebHistory(),
   routes: routes,
 });

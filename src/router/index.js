@@ -42,9 +42,15 @@ const routes = [
   },
 ];
 
-export function createRouter () {
-  return _createRouter({
-    history: createWebHistory(),
-    routes: routes
-  })
-}
+const router = createRouter({
+  history: createWebHistory(),
+  routes: routes,
+});
+
+export default router
+// export function createRouter () {
+//   return _createRouter({
+//     history: createWebHistory(),
+//     routes: routes
+//   })
+// }

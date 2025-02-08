@@ -4,7 +4,7 @@
     <p><b>Hi!</b></p>
     <p>I'm Dinda O'Brien, a fresh software developer transitioning from IT support.</p>
     <p>
-      I have a diverse technical background, including asking users if they've restarted 
+      I have a diverse technical background, from asking users if they've restarted 
       their machines, cyber security, network maintenance, systems administration, and now 
       developing web applications.
     </p>

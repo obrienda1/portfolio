@@ -48,9 +48,3 @@ const router = _createRouter({
 });
 
 export default router
-// export function createRouter () {
-//   return _createRouter({
-//     history: createWebHistory(),
-//     routes: routes
-//   })
-// }
